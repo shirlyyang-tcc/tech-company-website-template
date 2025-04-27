@@ -53,7 +53,7 @@ const Testimonials = () => {
                 <div className="mb-8">
                     <p className="text-lg md:text-xl text-black font-[Asap] leading-relaxed italic mb-6 max-w-2xl mx-auto">
                         {/* Example default values, replace with actual default quotes in t() */}
-                        "{t(`testimonialsSection.items.${id}.quote`, { defaultValue: `Quote from customer ${id}` })}"
+                        &quot;{t(`testimonialsSection.items.${id}.quote`, { defaultValue: `Quote from customer ${id}` })}&quot;
                     </p>
                     <p className="text-xl md:text-2xl font-semibold text-black font-[Poppins]">
                         {t(`testimonialsSection.items.${id}.name`, { defaultValue: `Customer ${id} Name` })}
